@@ -5,10 +5,6 @@ Code for generating the dashboard
 Author: Xin Yu
 Date: May 29, 2020
 
-
-TO DO:
-1. Add webinar to mailchimp query
-2. Write code for webinar API
 """
 
 #--------------------------------------------Imports----------------------------------------------------------------
@@ -35,9 +31,9 @@ app = dash.Dash(
 )
 application = app.server
 
-# Authentication
+# Optional Authentication
 # VALID_USERNAME_PASSWORD_PAIRS = {
-#     'biomass': '123qweASD'
+#     'username': 'password'
 # }
 # auth = dash_auth.BasicAuth(
 #     app,
@@ -49,7 +45,7 @@ PATH = pathlib.Path(__file__).parent
 DATA_PATH = PATH.joinpath("data").resolve()
 
 #mapbox authentication
-mapbox_token="pk.eyJ1IjoiZ3ltY2hpY2siLCJhIjoiY2thcmR1Z2VyMDN5dDJ0bnp1YWlyNzgwNCJ9.ljmZhyW593P4gPv4ngqBQA"  #my mapbox token
+mapbox_token="mymapbox token"  #my mapbox token
 
 #--------------------------------------------data processing----------------------------------------------------------
 
