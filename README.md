@@ -13,3 +13,8 @@ Note:
 
 # Buil & Deployment
 Built using Dash Plotly. Deployed on AWS Elastic Beanstalk
+
+# Screenshots
+[](screenshots/screenshot_1.png)
+
+[](screnshots/screenshot_2.png)
