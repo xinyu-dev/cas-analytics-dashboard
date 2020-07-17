@@ -1,0 +1,237 @@
+/*Fonts ––––––––––––––––––––––––––––––––––––––––––––––––––
+To change font, repalce the url below, and change all occurences of `font-family` to the new font name
+*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+
+body{
+  margin: 0px;
+  padding: 0px;
+  background-color: #F3F4F9;  /*background color of the main dashboard. A bit of grey */
+  font-family: 'Montserrat';
+  color: #43729F;      /*font color for the main dashboar*/
+}
+
+.study-browser-banner {
+  background: #43729F;  /*background color of the banner */
+  color: white;
+  padding: 12px;
+  padding-left: 48px;
+}
+
+.div-logo{
+  display: inline-block;
+  float: right;
+}
+
+.logo{
+  height: 35px;
+  padding: 6px;
+  margin-top: 3px;
+}
+
+.h2-title, .h2-title-mobile{
+  font-family: 'Montserrat';
+  display: inline-block;
+  letter-spacing: 3.8px;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.h2-title-mobile{
+  display: none;
+}
+
+h5, h6{
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 16px;
+}
+
+h5{
+  padding-left: 42px;
+}
+
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+}
+
+/*.bg-white{*/
+/*  background-color: white;*/
+/*  padding: 24px 32px;*/
+/*  height: 500px;*/
+/*}*/
+
+.bg-white {                              /* I modified this for better display on ipad and mobiles so text won't go out of box*!*/
+    border-radius: 5px;
+    background-color: white;
+    padding: 15px;
+    position: relative;
+    box-shadow: 2px 2px 2px lightgrey;
+}
+
+.bg-white-alt{                          /*I added this for the mapbox effect. It good for a large 12-column chart */
+  background-color: white;
+  border-radius: 5px;
+  padding: 24px 50px;
+  position: relative;
+  height: 560px;
+  box-shadow: 2px 2px 2px lightgrey;
+}
+
+
+.bg-white-container {                      /*I added this: it specifies effects of text WITHIN the small stats box*!*/
+  margin-bottom: 25px !important;
+  border-radius: 5px;
+  background-color: #7fc6d2;
+  color:#ffffff;
+  padding: 15px;
+  position: relative;
+  box-shadow: 2px 2px 2px lightgrey;
+}
+
+
+
+.app-body{
+  margin-left: 4%;
+}
+
+.card{
+  padding:48px 24px 48px 24px;
+  margin-left: 4%;
+}
+
+.card-left{
+  padding:48px 24px 48px 24px;
+  margin-left: 0px;
+}
+
+.card-center{
+  padding:48px 24px 48px 24px;   /*I added this style: it shows a chart spanning 12 columns*/
+  margin-left: 0px;
+  margin-right: 4%
+}
+
+.card-tight-top{
+  padding:2px 24px 48px 24px;   /*I added this style: it has a smaller padding for top */
+  margin-left: 0px;
+  margin-right: 4%
+}
+
+.card-tight-bt{
+  padding:48px 24px 5px 24px;   /*I added this style: it has a smaller padding for bottom */
+  margin-left: 0px;
+  margin-right: 4%
+}
+
+.card-statsbox{               /*I added this style: it's specifically for the stats box*/
+  padding:48px 15px 24px 15px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+
+
+.padding-top-bot{
+  padding-top: 12px;
+  padding-bottom: 18px;
+}
+
+
+
+.upload{
+  width: 100%;
+  line-height: 60px;
+  border-width: 1px;
+  border-style: dashed;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.upload p, .upload a {
+  display: inline;
+}
+
+.Select-control{
+  border: 1px solid #203cb3;
+}
+
+@media only screen and (max-width: 320px){
+  .Select-menu-outer, .Select-value{
+    font-size: 10.5px;
+  }
+  .upload{
+    padding: 5px;
+  }
+}
+
+/* mobile */
+@media screen and (max-width: 768px) {
+  .upload{
+    line-height: 60px;
+    border-width: 1px;
+    border-style: dashed;
+    border-radius: 5px;
+    text-align: center;
+    font-size: small;
+  }
+
+  .columns{
+    width: 100%;
+  }
+
+  .card, .card-left, .card-center, .card-tight-bt, card-tight-top{
+    padding: 24px;
+    margin: 0px;
+  }
+
+
+  .bg-white, .bg-white-alt, .bg-white-container{
+    height: auto;
+  }
+
+  .study-browser-banner{
+    padding-left: 24px;
+  }
+
+  .logo{
+    height: 28px;
+    padding-left:0px;
+    padding-bottom:0px;
+  }
+
+  .div-logo{
+    float: left;
+    display: block;
+    width: 100%;
+  }
+
+  .h2-title{
+    display:none;
+  }
+
+  .h2-title-mobile{
+    display:block;
+    float:left;
+  }
+
+  .app-body{
+    margin-left: 0px;
+  }
+
+  .four.columns                   { width: 100%; }
+  .eight.columns                  { width: 100%; }
+
+  .columns{
+    text-align: center;
+  }
+
+  .user-control{
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+}
+
+
+
