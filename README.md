@@ -15,6 +15,8 @@ Note:
 Built using Dash Plotly. Deployed on AWS Elastic Beanstalk
 
 # Screenshots
-![](screenshots/screenshot_1.png)
 
-![](screnshots/screenshot_2.png)
+![screenshot1](screenshots/screenshot_1.png)
+
+
+![screenshot2](screnshots/screenshot_2.png)
