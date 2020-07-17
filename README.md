@@ -7,8 +7,8 @@ A Analytics Dashboard built by Python Dash for Chinese Antibody Society's multim
 All data collection was done through API except for WeChat (authorization for WeChat API requires a special type of account).
 
 Note: 
-- Data folder is NOT included in the repository. 
-- Certain API keys (e.g. mapbox) is hidden for security reasons. 
+- `data` folder is NOT included in the repository. 
+- Certain API keys (e.g. mapbox) or sensitive data is hidden for security reasons. 
 
 
 # Buil & Deployment
