@@ -19,4 +19,4 @@ Built using Dash Plotly. Deployed on AWS Elastic Beanstalk
 ![screenshot1](screenshots/screenshot_1.png)
 
 
-![screenshot2](screnshots/screenshot_2.png)
+![screenshot2](screenshots/screenshot_2.png)
