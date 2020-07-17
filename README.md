@@ -14,22 +14,22 @@ Built using Dash Plotly. Deployed on AWS Elastic Beanstalk
 
 # Screenshots
 
-![screenshot1](screenshots/email_1)
+![email](screenshots/email_1)
 
 
-![screenshot2](screenshots/web_1)
+![web1](screenshots/web_1)
 
 
-![screenshot2](screenshots/web_2)
+![web2](screenshots/web_2)
 
 
-![screenshot2](screenshots/web_3)
+![web3](screenshots/web_3)
 
 
-![screenshot2](screenshots/wehchat_1)
+![wechat1](screenshots/wehchat_1)
 
 
-![screenshot2](screenshots/wechat_2)
+![wechat2](screenshots/wechat_2)
 
 
-![screenshot2](screenshots/wechat_3)
+![wechat3](screenshots/wechat_3)
